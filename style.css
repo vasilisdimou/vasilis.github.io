@@ -126,3 +126,47 @@ button:active {
   }
 
 }
+
+
+
+
+.blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-post {
+    background-color: #38bdf8;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.blog-post h3 {
+    font-size: 1.8em;
+    margin-top: 10px;
+    /*font-family: 'Nerko One', cursive;*/
+    font-family: 'Oswald', Arial, sans-serif;
+}
+
+.blog-post p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.blog-post .date {
+    font-size: 0.9em;
+    color: #999;
+    margin-top: 5px;
+}
+
+
